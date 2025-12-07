@@ -346,7 +346,7 @@
       mobileNumberInput.classList.remove('is-invalid');
       const amount = document.getElementById('amount').value;
       const token = document.getElementById('token-value').value;
-      const url = `https://s2.klinternetservices.com/xendit/payment?number=${encodeURIComponent(mobileNumber)}&amount=${encodeURIComponent(amount)}&token=${encodeURIComponent(token)}`;
+      const url = `https://raskawifikonek.pages.dev/xendit/payment?number=${encodeURIComponent(mobileNumber)}&amount=${encodeURIComponent(amount)}&token=${encodeURIComponent(token)}`;
       window.location.href = url;
       bootstrap.Modal.getInstance(document.getElementById('mobileNumberModal')).hide();
     });
@@ -354,4 +354,5 @@
 </body>
 
 </html>
+
 
